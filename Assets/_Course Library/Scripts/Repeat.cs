@@ -6,11 +6,18 @@ public class Repeat : MonoBehaviour
 {
   public void start()
     {
-        InvokeRepeating("Launch", 5.0f, 5.0f);
+        InvokeRepeating("Fire", 5.0f, 5.0f);
     }
 
-    public void Launch()
+    public void Fire()
     {
+        GameObject newObject = Instantiate(projectilePrefab, startPoint.position, startPoint.rotation);
+        if (newObject.TryGetComponet(out Rigidbody rigidBody))
+            ApplyForce(rigidBody);
+    }
 
+    public void Repeater()
+    {
+        InvokeRepeating("fire", Delay, Speed);
     }
 }
