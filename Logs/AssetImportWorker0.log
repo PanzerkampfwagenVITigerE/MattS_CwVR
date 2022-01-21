@@ -158,3 +158,11 @@ Received Import Request.
 Start importing Assets/_Course Library/Scripts/Actions/CreateTrail.cs using Guid(04697fc131642b6418acf85ba5aeb762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c990f780bc2f1cbd6bdb30806a3d84e') in 0.113301 seconds 
   Import took 0.123538 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 564.169772 seconds.
+  path: Assets/POITNS/Points.cs
+  artifactKey: Guid(7eaaae94bd5ed53479a52f2f786f0b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POITNS/Points.cs using Guid(7eaaae94bd5ed53479a52f2f786f0b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406001016efb60b85c4fc7f6f718235e') in 0.010136 seconds 
+  Import took 0.018295 seconds .
+
