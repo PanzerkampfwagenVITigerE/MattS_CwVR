@@ -1554,6 +1554,7 @@ GameObject:
   - component: {fileID: 361309298}
   - component: {fileID: 361309297}
   - component: {fileID: 361309296}
+  - component: {fileID: 361309302}
   m_Layer: 0
   m_Name: Lefthand Ray
   m_TagString: Untagged
@@ -2034,6 +2035,20 @@ MonoBehaviour:
       m_SingletonActionBindings: []
     m_Reference: {fileID: 7779212132400271959, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!114 &361309302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361309294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9469e5ef7ce252d48a689ad38d7b5695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anchor: {fileID: 0}
+  provider: {fileID: 0}
 --- !u!1 &437820633
 GameObject:
   m_ObjectHideFlags: 0
@@ -4958,6 +4973,7 @@ GameObject:
   - component: {fileID: 1436109493}
   - component: {fileID: 1436109492}
   - component: {fileID: 1436109496}
+  - component: {fileID: 1436109497}
   m_Layer: 0
   m_Name: Righthand Ray
   m_TagString: Untagged
@@ -5412,6 +5428,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forceToggle: 0
   directInteractor: {fileID: 474225661}
+--- !u!114 &1436109497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436109490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9469e5ef7ce252d48a689ad38d7b5695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anchor: {fileID: 0}
+  provider: {fileID: 0}
 --- !u!1 &1487704657
 GameObject:
   m_ObjectHideFlags: 0
