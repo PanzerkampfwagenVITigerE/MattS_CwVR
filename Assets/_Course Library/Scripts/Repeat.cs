@@ -20,4 +20,14 @@ public class Repeat : MonoBehaviour
     {
         InvokeRepeating("fire", Delay, Speed);
     }
+    
+    public void CancleRepeater()
+    {
+        CancelInvoke();
+    }
+    private void ApplyForce(Rigidbody rigidbody)
+    {
+        Vector3 force = startpoint.forward * launchSpeed;
+        rigidbody.Addforce(force);
+    }
 }
